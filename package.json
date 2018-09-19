@@ -1,0 +1,46 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "An app where you can view the news, save articles and comment on them.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angela-andrews/news-scraper.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "handlebars",
+    "mongoose",
+    "body-parser",
+    "cherrio",
+    "request"
+  ],
+  "author": "Angela Andrews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angela-andrews/news-scraper/issues"
+  },
+  "homepage": "https://github.com/angela-andrews/news-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.2.13",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
+  }
+}
